@@ -1,6 +1,6 @@
 # AlphaMission_Fixed_PAL16R6A_15B
 Fixed PAL16R6 equations from Alpha Mission dump and converted to GAL16V8 JED.  The JED file is available for recording on a GAL16V8 and the equations corrected with author's annotations. Recorded and tested using a TL866 II+ programmer with Xgpro v8.51. The original dumped files are available in [http://wiki.pldarchive.co.uk/](http://wiki.pldarchive.co.uk/).
-These fixes are the result of analyzing signals from the PAL16R6 circuit on the original game board captured with a logic analyzer at 400MHz and compared to the simulation performed at Verilog.
+These fixes are the result of analyzing signals from the PAL16R6 circuit on the original game PCB captured with a logic analyzer at 400MHz and compared to the simulation performed in Verilog.
 
 ## Testing on real PCB (Alpha Mission SNK ELECTRONICS A5002UP0x-01) with wrong PAL dump:
 
