@@ -1,6 +1,17 @@
-# AlphaMission_Fixed_PAL16R6A_15B
+# AlphaMission arcade PCB Fixed PAL16R6A_15B ic 15B
 Fixed PAL16R6 equations from Alpha Mission dump and converted to GAL16V8 JED.  The JED file is available for recording on a GAL16V8 and the equations corrected with author's annotations. Recorded and tested using a TL866 II+ programmer with Xgpro v8.51. The original dumped files are available in [http://wiki.pldarchive.co.uk/](http://wiki.pldarchive.co.uk/).
 These fixes are the result of analyzing signals from the PAL16R6 circuit on the original game PCB captured with a logic analyzer at 400MHz and compared to the simulation performed in Verilog.
+The JED to equations conversions were made with MAME's JEDUTIL:
+```
+jedutil -view ArmoredScrumObject_pal16r6a_3.jed PAL16R6 > ArmoredScrumObject_pal16r6a_3_eqn.txt
+```
+
+```
+jedutil -view "AlphaMission_ PAL16R6A_15B_FIXED.jed" GAL16V8 > "AlphaMission_ PAL16R6A_15B_FIXED_eqn.txt
+```
+
+The PAL16R6 to GAL16V8 conversions were made with Lattice PALTOGAL utility (from DOSBOX console).
+
 
 ## Testing on real PCB (Alpha Mission SNK ELECTRONICS A5002UP0x-01) with wrong PAL dump:
 (https://youtu.be/Wj-3Nn4SDy8)
