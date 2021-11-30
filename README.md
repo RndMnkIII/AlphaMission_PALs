@@ -3,10 +3,10 @@ Fixed PAL16R6 equations from Alpha Mission dump and converted to GAL16V8 JED.  T
 These fixes are the result of analyzing signals from the PAL16R6 circuit on the original game PCB captured with a logic analyzer at 400MHz and compared to the simulation performed in Verilog.
 
 ## Testing on real PCB (Alpha Mission SNK ELECTRONICS A5002UP0x-01) with wrong PAL dump:
-(https://github.com/RndMnkIII/AlphaMission_Fixed_PAL16R6A_15B/blob/main/img/wrong_PAL16R6.mp4)
+(https://youtu.be/Wj-3Nn4SDy8)
 
 ## Testing on real PCB (Alpha Mission SNK ELECTRONICS A5002UP0x-01) with fixed PAL dump:
-(https://github.com/RndMnkIII/AlphaMission_Fixed_PAL16R6A_15B/blob/main/img/fixed_PAL16R6v2.mp4)
+(https://youtu.be/M8kRWPm-4Bg)
 
 ## Equations before fix:
 ```
