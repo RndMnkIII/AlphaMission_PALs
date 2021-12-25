@@ -1,6 +1,7 @@
 # AlphaMission/A.S.O. arcade PCB PALs:
 ## PAL16L8A_9F
 Converted from PLD dump from Arian Mission to GAL16V8 format using handmade PAL file and PAL2GAL.EXE utility. Tested on AlphaMission pcb. The equations were simplified from unnecessary terms and contrasted using the evidence from the data capture of said PAL with a logic analyzer. Many thanks to @caiusarcade for the support.
+(https://youtu.be/8plIKgkRWEY)
 
 ## PAL16R6A_15B_FIXED
 Fixed PAL16R6 equations from Alpha Mission / A.S.O. dump and converted to GAL16V8 JED.  The JED file is available for recording on a GAL16V8 and the equations corrected with author's annotations. Recorded and tested using a TL866 II+ programmer with Xgpro v8.51. The fixed PAL can be downloaded also from the original site [PLD Archive](http://wiki.pldarchive.co.uk/index.php?title=Alpha_Mission).
