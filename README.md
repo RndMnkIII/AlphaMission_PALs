@@ -1,6 +1,6 @@
 # AlphaMission/A.S.O. arcade PCB PALs:
 ## PAL16L8A_9F converted to GAL16V8 (20 pin device)
-!["PAL16L8A 9F"](https://github.com/RndMnkIII/AlphaMission_PALs/edit/main/img/PAL16L8A_2-3.jpg)
+!["PAL16L8A 9F"](img/PAL16L8A_2-3.jpg?raw=true "PAL16L8A 9F")
 
 Converted from PLD dump from Arian Mission to GAL16V8 format using handmade PAL file and PAL2GAL.EXE utility. Tested on AlphaMission pcb. The equations were simplified from unnecessary terms and contrasted using the evidence from the data capture of said PAL with a logic analyzer. Many thanks to @caiusarcade for the support.
 (https://youtu.be/8plIKgkRWEY)
