@@ -1,9 +1,14 @@
 # AlphaMission/A.S.O. arcade PCB PALs:
-## PAL16L8A_9F
+## PAL16L8A_9F converted to GAL16V8 (20 pin device)
 Converted from PLD dump from Arian Mission to GAL16V8 format using handmade PAL file and PAL2GAL.EXE utility. Tested on AlphaMission pcb. The equations were simplified from unnecessary terms and contrasted using the evidence from the data capture of said PAL with a logic analyzer. Many thanks to @caiusarcade for the support.
 (https://youtu.be/8plIKgkRWEY)
 
-## PAL16R6A_15B_FIXED
+## PAL16l6_1A converted to GAL20V8 (24 pin device)
+The equations of this PAL were also corrected based on the captures of the real device with a logic analyzer and the source code of MAME, since this PAL is used to decode the address bus of the two main Z80 CPUs (CPUA, CPUB). Conversion has been made to a GAL20V8 device but it has not been possible to record in a real one since I have not managed to obtain one that does not give problems when recording it with the TL86+, it may because all the ones I have bought so far from China are false imitations of a GAL20V8B.
+If someone can advise me on where to obtain a GAL20V8B-25LP from a reliable source and that the device works correctly or can offer me one to test the validity of the JED file, it will be welcome.
+File: GAL20V8_A1.jed
+
+## PAL16R6A_15B_FIXED converted to GAL16V8 (20 pin device)
 Fixed PAL16R6 equations from Alpha Mission / A.S.O. dump and converted to GAL16V8 JED.  The JED file is available for recording on a GAL16V8 and the equations corrected with author's annotations. Recorded and tested using a TL866 II+ programmer with Xgpro v8.51. The fixed PAL can be downloaded also from the original site [PLD Archive](http://wiki.pldarchive.co.uk/index.php?title=Alpha_Mission).
 These fixes are the result of analyzing signals from the PAL16R6 circuit on the original game PCB captured with a logic analyzer at 400MHz and compared to the simulation performed in Verilog.
 The JED to equations conversions were made with MAME's JEDUTIL:
