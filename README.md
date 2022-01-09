@@ -13,8 +13,10 @@ This JED file was burned onto a GAL16V8 device using a TL866II+ (XGecu Pro) prog
 !["PAL16L6CNS 1A"](img/PAL16L6CNS_2-2.jpg?raw=true "PAL16L6CNS 1A")
 
 The equations of this PAL were also corrected based on the captures of the real device with a logic analyzer and the source code of MAME, since this PAL is used to decode the address bus of the two main Z80 CPUs (CPUA, CPUB). Conversion has been made to a GAL20V8 device but it has not been possible to record in a real one since I have not managed to obtain one that does not give problems when recording it with the TL86+, it may because all the ones I have bought so far from China are false imitations of a GAL20V8B.
-If someone can advise me on where to obtain a GAL20V8B-25LP from a reliable source and that the device works correctly or can offer me one to test the validity of the JED file, it will be welcome.
-File: GAL20V8_AlphaMission_A1.jed
+If someone can advise me on where to obtain a GAL20V8B-25LP from a reliable source and that the device works correctly or can offer me one to test the validity of the JED file, it will be welcome:
+
+!["GAL20V8B-25LP"](imgGAL20V8B-25LP.jpg?raw=true "GAL20V8B-25LP")
+File: **GAL20V8_AlphaMission_A1.jed**
 
 ## PAL16R6A_15B_FIXED converted to GAL16V8 (20 pin device)
 !["PAL16R6A 15B"](img/PAL16R6A.jpg?raw=true "pal16r6a 15B")
