@@ -3,7 +3,7 @@
 Converted from PLD dump from Arian Mission to GAL16V8 format using handmade PAL file and PAL2GAL.EXE utility. Tested on AlphaMission pcb. The equations were simplified from unnecessary terms and contrasted using the evidence from the data capture of said PAL with a logic analyzer. Many thanks to @caiusarcade for the support.
 (https://youtu.be/8plIKgkRWEY)
 
-## PAL16l6_1A converted to GAL20V8 (24 pin device)
+## PAL16L6_1A converted to GAL20V8 (24 pin device)
 The equations of this PAL were also corrected based on the captures of the real device with a logic analyzer and the source code of MAME, since this PAL is used to decode the address bus of the two main Z80 CPUs (CPUA, CPUB). Conversion has been made to a GAL20V8 device but it has not been possible to record in a real one since I have not managed to obtain one that does not give problems when recording it with the TL86+, it may because all the ones I have bought so far from China are false imitations of a GAL20V8B.
 If someone can advise me on where to obtain a GAL20V8B-25LP from a reliable source and that the device works correctly or can offer me one to test the validity of the JED file, it will be welcome.
 File: GAL20V8_AlphaMission_A1.jed
