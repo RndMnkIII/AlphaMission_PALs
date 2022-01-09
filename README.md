@@ -16,6 +16,7 @@ The equations of this PAL were also corrected based on the captures of the real 
 If someone can advise me on where to obtain a GAL20V8B-25LP from a reliable source and that the device works correctly or can offer me one to test the validity of the JED file, it will be welcome:
 
 !["GAL20V8B-25LP"](img/GAL20V8B-25LP.jpg?raw=true "GAL20V8B-25LP")
+
 File: **GAL20V8_AlphaMission_A1.jed**
 
 ## PAL16R6A_15B_FIXED converted to GAL16V8 (20 pin device)
