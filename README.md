@@ -6,17 +6,17 @@ Converted from PLD dump from Arian Mission to GAL16V8 format using handmade PAL 
 (https://youtu.be/8plIKgkRWEY)
 
 This JED file was burned onto a GAL16V8 device using a TL866II+ (XGecu Pro) programmer:
-!["XGecu Pro"](https://github.com/RndMnkIII/AlphaMission_PALs/edit/main/img/XGECU_PRO.jpg)
+!["XGecu Pro"](img/XGECU_PRO.jpg?raw=true "XGecu Pro")
 
 ## PAL16L6_1A converted to GAL20V8 (24 pin device)
-!["PAL16L6CNS 1A"](https://github.com/RndMnkIII/AlphaMission_PALs/edit/main/img/PAL16L6CNS_2-2.jpg)
+!["PAL16L6CNS 1A"](img/PAL16L6CNS_2-2.jpg?raw=true "PAL16L6CNS 1A")
 
 The equations of this PAL were also corrected based on the captures of the real device with a logic analyzer and the source code of MAME, since this PAL is used to decode the address bus of the two main Z80 CPUs (CPUA, CPUB). Conversion has been made to a GAL20V8 device but it has not been possible to record in a real one since I have not managed to obtain one that does not give problems when recording it with the TL86+, it may because all the ones I have bought so far from China are false imitations of a GAL20V8B.
 If someone can advise me on where to obtain a GAL20V8B-25LP from a reliable source and that the device works correctly or can offer me one to test the validity of the JED file, it will be welcome.
 File: GAL20V8_AlphaMission_A1.jed
 
 ## PAL16R6A_15B_FIXED converted to GAL16V8 (20 pin device)
-!["PAL16R6A 15B"](https://github.com/RndMnkIII/AlphaMission_PALs/edit/main/img/PAL16R6A.jpg)
+!["PAL16R6A 15B"](img/PAL16R6A.jpg?raw=true "pal16r6a 15B")
 Fixed PAL16R6 equations from Alpha Mission / A.S.O. dump and converted to GAL16V8 JED.  The JED file is available for recording on a GAL16V8 and the equations corrected with author's annotations. Recorded and tested using a TL866 II+ programmer with Xgpro v8.51. The fixed PAL can be downloaded also from the original site [PLD Archive](http://wiki.pldarchive.co.uk/index.php?title=Alpha_Mission).
 These fixes are the result of analyzing signals from the PAL16R6 circuit on the original game PCB captured with a logic analyzer at 400MHz and compared to the simulation performed in Verilog.
 The JED to equations conversions were made with MAME's JEDUTIL:
