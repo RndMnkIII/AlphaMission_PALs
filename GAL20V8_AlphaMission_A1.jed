@@ -5,7 +5,7 @@ Copyright (c) by LATTICE Semiconductor Corp. 1990, 1991, 1992.
 Input File:  p16l6a1f.jed
 Output File: g20v8a1f.jed
 The Date:    Mon Jan 17 10:10:12 2022
-
+Author     : @RndMnkIII (rndmnkiii@gmail.com)
 MODEL      : TL866+2
 TITLE      : PAL16L6C.1A -> GAL20V8B.1A
 
