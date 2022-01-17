@@ -1,4 +1,6 @@
-# AlphaMission/A.S.O. arcade PCB PALs:
+# AlphaMission/A.S.O. (Armored Scrum Object) arcade PCB PALs:
+I decided to create this repository during the process of creating an FPGA Core for SNK's 1985 arcade game called Alpha Mission (which would have its sequel years later on the Neo Geo console) because dumps of existing PAL files I found they were incomplete and contained errors. Since I had a working original arcade board, I was able to capture data with a logic analyzer from the PAL ICs and contrasting these captures with the functions they were supposed to perform. Finally converting them to GAL devices and replacing them on the arcade board with the original PALs, I was able to test and verify that the modifications I made were correct.
+
 ## PAL16L8A_9F converted to GAL16V8 (20 pin device)
 !["PAL16L8A 9F"](img/PAL16L8A_2-3.jpg?raw=true "PAL16L8A 9F")
 
@@ -12,8 +14,8 @@ This JED file was burned onto a GAL16V8 device using a TL866II+ (XGecu Pro) prog
 ## PAL16L6_1A converted to GAL20V8 (24 pin device)
 !["PAL16L6CNS 1A"](img/PAL16L6CNS_2-2.jpg?raw=true "PAL16L6CNS 1A")
 
-The equations of this PAL were also corrected based on the captures of the real device with a logic analyzer and the source code of MAME, since this PAL is used to decode the address bus of the two main Z80 CPUs (CPUA, CPUB). Conversion has been made to a GAL20V8 device but it has not been possible to record in a real one since I have not managed to obtain one that does not give problems when recording it with the TL86+, it may because all the ones I have bought so far from China are false imitations of a GAL20V8B.
-If someone can advise me on where to obtain a GAL20V8B-25LP from a reliable source and that the device works correctly or can offer me one to test the validity of the JED file, it will be welcome:
+The equations of this PAL were also corrected based on the captures of the real device with a logic analyzer and the source code of MAME, since this PAL is used to decode the address bus of the two main Z80 CPUs (CPUA, CPUB). Conversion has been made to a GAL20V8 device and tested using a TL866II+ programmer with a Lattice GAL20V8B-25LP on the real PCB. Optionally lift the pin 18 of the GAL20V8 because is unused as output signal but because is linked in the PCB with the pin 20 ( of the same GAL20V8 device could interfere with the output of this pin.
+In my opinion, this bizarre connection was made due to the very structure of the PAL16L6 where there are only two product sums available for the output of pin 18 and four for the output of pin 20 (see the PAL16L6 datasheet). Since 4 product sums were needed for the signal selection of the background layer, said output of pin 20 was routed connecting it electrically with pin 18, whose output does not generate anything, and from here to the circuit where it activates the aforementioned background layer
 
 !["GAL20V8B-25LP"](img/GAL20V8B-25LP.jpg?raw=true "GAL20V8B-25LP")
 
